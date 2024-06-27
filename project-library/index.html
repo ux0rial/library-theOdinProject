@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>My Library</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <section>
+        <h1>My Library</h1>
+        <div class="card">
+            <form>
+                <button id="addBook" type="submit">Add Book</button>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="pages">Pages:</label>
+                <input type="number" id="pages" name="pages" required>
+                <label for="read">Read?</label>
+                <input type="checkbox" id="read" name="read">
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="cardWrapper">
+            <div class="card">
+                <h2>Book Title</h2>
+                <img src="https://via.placeholder.com/150" alt="Book Cover">
+                <p>Author: Author Name</p>
+                <p>Pages: 123</p>
+                <p>Read: Yes</p>
+                <button class="remove">Remove</button>
+            </div>
+            <div class="card">
+                <h2>Book Title</h2>
+                <img src="https://via.placeholder.com/150" alt="Book Cover">
+                <p>Author: Author Name</p>
+                <p>Pages: 123</p>
+                <p>Read: Yes</p>
+                <button class="remove">Remove</button>
+            </div>
+            <div class="card">
+                <h2>Book Title</h2>
+                <img src="https://via.placeholder.com/150" alt="Book Cover">
+                <p>Author: Author Name</p>
+                <p>Pages: 123</p>
+                <p>Read: Yes</p>
+                <button class="remove">Remove</button>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="/script.js"></script>
+</body>
+
+</html>
